@@ -1,0 +1,30 @@
+.button {
+    font-family: Monaco;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #008888;
+    color: black;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 4px;
+    padding: 12px 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover:enabled {
+    background-color: #004444;
+    color: white;
+}
+
+button:disabled {
+    color: #003333;
+    opacity: 0.5;
+    cursor: default;
+}
