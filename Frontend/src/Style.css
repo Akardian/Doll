@@ -1,4 +1,4 @@
 :root {
-    --color-disabled: #777;
+    --color-disabled: rgba(119, 119, 119, 1.0);
     --color-background: rgba(17, 24, 54, 0.90);
 }

@@ -2,12 +2,13 @@
 @import './../Style.css';
 </style>
 
-<script setup lang="ts">
-import Portal from "../app/portal/Portal.vue"
-</script>
-
 <template>
-    <nav class="page">
-        <Portal></Portal>
+    <nav class='page'>
+        <Portal />
     </nav>
 </template>
+
+<script setup lang="ts">
+import Portal from "./portal/DollPortal.vue"
+
+</script>
